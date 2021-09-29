@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+
+    <style>
+        body{
+            margin: 0;
+
+        }
+        .contenedor, .caja{
+            background-color: red;
+            padding: 5px;
+        }
+        .contenedor{
+            text-align: center;
+        }
+        .caja{
+            background-color: royalblue;
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .variante{
+            margin: 0 auto 0 0;
+            background-color: sienna;
+
+        }
+            .recuadro{
+                width: 50px;
+                height: 50px;
+                background-color: springgreen;
+                margin: 0 auto;
+                transition: 1s linear transform, 1s linear background, 1s linear border-radius;
+                transition-delay: 0.5s, 1s;
+            
+
+            }
+            .recuadro:hover{
+                background-color: tomato;
+                border-radius: 10px;
+                transform: rotate(45deg); scale: (1.5);
+
+            }
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="contenedor">
+            <div class="caja">Texto</div>
+            <div class="caja variante">Texto</div>
+
+            <div class="contenedor"></div>
+
+                <div class="recuadro"></div>
+            
+    </div>
+</body>
+</html>

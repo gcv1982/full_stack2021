@@ -1,0 +1,80 @@
+:root{
+    --azul:#2c6880;
+    --ancho:1320px;
+}
+
+body{
+    margin: 0;
+    background-color: #ccc;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+p, h1{
+    margin: 0 0 1rem 0;
+}
+.encabezado{
+    width: 100%;
+    padding: 20px 0 10px 0;
+    background-color: var(--azul);
+}
+.encabezado .contenido{
+    max-width: var(--ancho);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: var(--azul);
+
+}
+
+.encabezado .contenido .logo1{
+    width: 33.33%;
+}
+.encabezado .contenido .logo2{
+    width: 33.33%;
+}
+.encabezado .contenido .logo3{
+    width: 16.66%;
+    margin-left: 16.66%;
+}
+.encabezado .vibora{
+    background: url(../img/vibora-blanca.png) repeat-x;
+    height: 24px;
+    margin-top: 10px;
+    background-size: contain;
+}
+.contenido-interior{
+    max-width: var(--ancho);
+    margin: 0 auto;
+    /*background-color: violet;*/
+
+}
+
+.contenido-interior .parte1{
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px 0;
+   /* background-color:yellowgreen*/
+
+}
+.contenido-interior .parte1 h1{
+    font-size: 2rem;
+    color: wheat;
+    font-weight: 800;
+}
+.contenido-interior .parte1 p{
+color: var(--azul);
+font-size: 1rem;
+}
+.texto-centrado{
+    text-align: center;
+}
+.vibora2{
+    background: url(../img/vibora-azul.png) repeat-x;
+    height: 24px;
+    background-size: contain;
+}
+
+
+

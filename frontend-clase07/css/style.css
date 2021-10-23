@@ -55,12 +55,12 @@ p, h1{
     width: 75%;
     margin: 0 auto;
     padding: 20px 0;
-   /* background-color:yellowgreen*/
+   /* background-color:yellowgreen*/++
 
 }
 .contenido-interior .parte1 h1{
     font-size: 2rem;
-    color: wheat;
+    color: rgb(209, 140, 11);
     font-weight: 800;
 }
 .contenido-interior .parte1 p{
